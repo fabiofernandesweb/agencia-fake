@@ -23,7 +23,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px;
-    /* background-color: cadetblue; */
+    position: fixed;
+    width: 100%;
+    background-color: white;
     
 }
 
@@ -82,6 +84,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; 
+    padding-top: 100px;
 }
 
 .headline {
@@ -162,7 +165,7 @@ section h2 {
 .card:hover {
     background: #ff2978;
     color: white;
-    padding: 40px;
+    padding-top: 80px;
 }
 
 .card:hover img {
@@ -183,7 +186,7 @@ section h2 {
 
 footer {
     margin-top: 100px;
-    height: 400px;
+    height: 350px;
     border-top: 5px solid #ff2978;
     background-image: linear-gradient(180deg, #180f4a, #090422, black);
     text-align: center;
@@ -193,16 +196,20 @@ footer {
     padding: 100px;
 }
 
-footer h1 {
+.agencia {
     font-family: "Lobster", sans-serif;
     font-weight: normal;
     color: white;
     font-size: 34px;
 }
 
-footer p {
-    color: white;
+.whats {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
+
+
 
 
 
